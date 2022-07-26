@@ -3,7 +3,7 @@
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
-const PORT = 8000
+const PORT = process.env.PORT || 8000
 const dotenv = require("dotenv");
 dotenv.config()
 const mongooseModel = require('./models/myModel');
