@@ -32,7 +32,7 @@ db.on('error', err => {
     console.error('connection error:', err)
 })
 
-//
+// Requesting parts
 
  app.get('/', async (request, response) => {
         try {
